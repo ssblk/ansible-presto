@@ -8,7 +8,7 @@ installer et configurer presto avec Ansible
 * pour le role coordinator , il faut modifier le fichier config.properties et specifier le nom d'hote que vous prévoyer utiliser 
 
 # executez l'installation du coordinateur a l'aide de cette commande 
-ansible-playbook -i <votre inventaire> <votre playbook> -u <le remote user> --private-key=<le chemin de la clé>
+ansible-playbook -i "votre inventaire" "votre playbook" -u "le remote user" --private-key=<le chemin de la clé>
   
 # Pour se connecter et executer des requetes
 il faut telecharger l'interface de ligne de commande de presto et executez les requetes suivante
