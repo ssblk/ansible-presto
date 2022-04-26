@@ -1,0 +1,4 @@
+---
+# defaults file for install-presto-coordinator
+
+presto_coordinator_host: localhost.localdomain

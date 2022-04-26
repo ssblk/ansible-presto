@@ -1,0 +1,5 @@
+-hosts: all
+sudo : yes
+tasks :
+-name : Stop presto
+    command : '/opt/presto/bin/launcher stop'

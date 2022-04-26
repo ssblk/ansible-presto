@@ -1,0 +1,5 @@
+-hosts : all
+ sudo : yes
+ tasks :
+  - name : Start presto
+      command : '/opt/presto/bin/launcher start'
